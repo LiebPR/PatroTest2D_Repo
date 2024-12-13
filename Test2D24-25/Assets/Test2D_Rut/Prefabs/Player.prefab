@@ -220,7 +220,12 @@ MonoBehaviour:
   playerInput: {fileID: 0}
   speed: 7
   jumpForce: 5
-  isGorunded: 0
+  isGrounded: 0
+  groundCheck: {fileID: 3214822575471312814}
+  groundCheckRadius: 0.1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!114 &4264682851528685707
 MonoBehaviour:
   m_ObjectHideFlags: 0
